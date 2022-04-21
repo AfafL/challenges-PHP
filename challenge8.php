@@ -17,6 +17,7 @@
         echo "Un de nos conseiller vous contactera soit à l’adresse " . $email . " ou par ";
         echo "téléphone au " . $tel . " dans les plus brefs délais pour traiter votre demande :<br><br>";
         echo $message;
-        ?>
+       
+       ?>
     </body>
 </html>
