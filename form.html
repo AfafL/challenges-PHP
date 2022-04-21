@@ -1,0 +1,49 @@
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-9">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+        <form  action="challenge8.php" method="get">
+            <div>
+                <label for="name">Prenom :</label>
+                <input required="" type="text"  id="name"  name="user_fname">
+            </div>
+            <div>
+                <label for="name">Nom :</label>
+                <input required="" type="text"  id="name"  name="user_lname">
+            </div><!-- comment -->
+            <div>
+                <label  for="email">Courriel :</label>
+                <input  required="" type="email"  id="email"  name="user_email">
+            </div>
+
+            <div>
+                <label  for="tel">Telephone :</label>
+                <input  required="" type="tel"  id="tel"  name="user_tel">
+            </div>            
+
+            <div>
+                <label  for="sujet">Message :</label>
+                <select required=""  id="syjet"  name="user_sujet">
+                    <option value="social">Activite sociale</option>
+                    <option value="pedagogique">Activite Pedagogique</option>
+                    <option value="culturel">Activite culturelle</option>                    
+                </select>
+            </div>
+
+            <div>
+                <label  for="message">Message :</label>
+                <textarea required=""  id="message"  name="user_message"></textarea>
+            </div>
+            <div  class="button">
+            </div>
+            <button  type="submit">Envoyer votre message</button>
+
+        </form> 
+
+    </body>
+</html>
